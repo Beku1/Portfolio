@@ -1,0 +1,122 @@
+.hero-container{
+    width:100%;
+    height: 100vh;
+    padding:0;
+    margin:0;
+    user-select: none;
+    font-family:teko ;
+    font-size: rem(30px);
+    color:$clr1;
+}
+
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+
+.social-links{
+  .social-link{
+    z-index:10;
+    position:absolute;
+    top:10px;
+    cursor: pointer;
+    transition: 0.7s;
+    @media screen and (max-width: 450px) {
+      font-size: rem(40px);
+  }
+    font-size: rem(50px);
+  }
+  .social-link:nth-child(1) {
+    &:hover{
+      color:#0961b8;
+    }
+    right: 25px;
+  }
+  .social-link:nth-child(2) {
+      &:hover{
+          color:#0961b8;
+      }
+    left: 25px;
+  }
+}
+
+.line-1{
+    position: relative;
+    top: 50%;  
+    width: 5em;
+    margin: 0 auto;
+    border-right: 2px solid transparent;
+    font-size: rem(50px);
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+    color:$clr1;   
+    @media screen and (max-width: 450px) {
+      font-size: rem(40px);
+  }
+    // animation:removeTextCurst 3s linear 1s 1;
+}
+
+
+.my-name{
+    font-family: yanoneB;
+    color:$clrWhite;
+}
+
+
+.line-2{
+    position: relative;
+    top: 50%;  
+    width: 5em;
+    margin: 0 auto;
+    border-right: 2px solid transparent;
+    font-size: rem(50px);
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%); 
+    color:$clr1;   
+    @media screen and (max-width: 450px) {
+      font-size: rem(40px);
+  }
+}
+
+#tsparticles{
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Animation */
+.anim-typewriter-1{
+
+  animation: typewriter1 2s steps(44) 1s 1 normal both,
+                blinkTextCursor1 500ms steps(44) 6 normal,
+              
+
+}
+@keyframes typewriter1{
+  from{width: 0; }
+  to{width: 6.5em;}
+}
+
+
+@keyframes blinkTextCursor1{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+  }
+
+
+.anim-typewriter-2{
+    animation: typewriter2 2s steps(44) 3s 1 normal both,
+               blinkTextCursor2 500ms steps(44) 3s 5  normal;
+            //    blinkTextCursor2 500ms steps(44) 3s infinite normal;
+  }
+
+@keyframes typewriter2{
+    from{width: 0;}
+    to{width: 8em;}
+  }
+  @keyframes blinkTextCursor2{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+  }

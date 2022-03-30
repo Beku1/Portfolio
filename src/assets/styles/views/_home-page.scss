@@ -1,0 +1,13 @@
+.portoflio-container{
+    width: 100%;
+    height: 100%;
+
+    section:not(.navbar-container){
+        &:not(.hero-container){
+            
+        }
+        min-height: 100vh;
+        margin-bottom:1px;
+        scroll-behavior:  smooth ;
+    }
+}
