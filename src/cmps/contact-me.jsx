@@ -47,7 +47,7 @@ export function ContactMe(){
                       placeholder="Fullname*"
                       autoComplete="off"
                       required
-                      autoFocus
+                    
                   /></label>
 
 <label><MdEmail/><Field
