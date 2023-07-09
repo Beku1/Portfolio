@@ -6,8 +6,8 @@ export function Projects() {
   const projects = [
     {
       name: 'DigiTask',
-      github: 'https://github.com/Beku1/DigiTask',
-      demo: 'https://digitask11.herokuapp.com/#/',
+      github: 'https://github.com/Beku1/DigitaskFixed',
+      demo: 'https://digitask.onrender.com/#/',
       description:
         'Digitask helps teams move work forward. Collaborate, manage projects, and reach new productivity peaks. Inspired by Trello',
       madeWith: [
@@ -30,7 +30,7 @@ export function Projects() {
     {
       name: 'HospiData',
       github: 'https://github.com/Beku1/HospiData',
-      demo: 'https://hospidata.herokuapp.com/',
+      demo: 'https://hospidata-back.onrender.com/',
       description:
         ' Health Center application system , Patients getting treatment from doctors for medical help.',
       madeWith: [
