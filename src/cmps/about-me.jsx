@@ -70,7 +70,9 @@ export function AboutMe(){
             <img className='profile-img' src={profile}/>
            <p> 
     <span>My name is <span className='full-name'>Beny Kursalin</span>,</span> <br/>
-    <span>I'm 25 years old, Finnished <span className='coding-academy' onClick={()=> window.open('https://www.coding-academy.org/index.php', "_blank")}><span>C</span>oding <span>A</span>cademy <span>B</span>ootcamp </span>and i'm incredibily passionate about coding.</span><br/>
+    <span>a passionate Full-Stack Developer with year of experience. I've worked at <span onClick={()=> window.open('https://www.kubiyax.com', "_blank")}>KubiyaX</span> on challenging projects with companies</span>
+    <span>like Rafael, Elbit, Matrix, and MoH. My expertise lies in React, TypeScript, and Node.js.</span>
+    <span>I'm 26 years old, Finnished <span className='coding-academy' onClick={()=> window.open('https://www.coding-academy.org/index.php', "_blank")}><span>C</span>oding <span>A</span>cademy <span>B</span>ootcamp </span></span><br/>
     <span>I mainly focus on Full-Stack web development.</span><br/>
     <span>I try to consistently learn new technologies and acquire new skills, and implement them in my code.</span><br/>
     <span>I am a fast learner and a team player, and would classify myself as an independent and organized person.</span><br/>
